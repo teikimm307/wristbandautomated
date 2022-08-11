@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "wristbandextractionv1"
+version = "0.1.0"
+description = "Protocol for the Wristband Extraction Process"
+authors = ["Tei Kim"]
+license = "GPL-3.0-or-later"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opentrons = "^6.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
